@@ -1,3 +1,3 @@
-# Docker Images
+# Dockerfiles
 
-A repository to store personally created docker images.
+A repository to store dockerfiles for personally created docker images.
