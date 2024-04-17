@@ -1,11 +1,13 @@
 FROM ubuntu:latest
 
-RUN apt update && \
+RUN yes | unminimize && \
+	apt update && \
 	apt install -y \
 		language-pack-ja-base \
 		language-pack-ja \
 		locales \
 		vim \
+		man-db \
 		sudo && \
 	rm -rf /var/lib/apt/lists/* && \
 	apt clean
